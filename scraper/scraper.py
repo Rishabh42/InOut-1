@@ -13,7 +13,6 @@ for tag in q1:
     for i in tag:
         for j in i:
             j = j[0:]
-            #print j
 
             with open("test.txt","a") as myfile:
                 x = j.replace(u'\u2019' ,'\n')
