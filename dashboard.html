@@ -35,7 +35,7 @@
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="index.html">Home</a>
+              <a class="nav-link js-scroll-trigger" href="home.html">Home</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link js-scroll-trigger" href="dashboard.html">Dashboard</a>
@@ -57,23 +57,27 @@
     <section class="success" id="about">
       <div class="container">
         <p></p>
-        <h2 class="text-center">Transactions</h2>
+        <h2 class="text-center">Dashboard</h2>
         <div class="row">
           <div class="col-lg-4 ml-auto">
             <p></p>
             <p></p>            
-            <h5>Current running Transactions</h5>
-            <p></p>
-            <p></p>            
-            <h6 id="currentt">There are no current transactions</h6>
+            <h5 id="tokens">0</h5>
+            <h6 id="">Tokens</h6>
+            <div class="col-lg-8 mx-auto text-center">                
+            <a href="market.html" class="btn btn-lg btn-outline">
+                <i class="fa"></i>
+                Create Market             
+            </a>
+            </div>
           </div>
           <div class="col-lg-4 mr-auto">
               <p></p>     
               <p></p>              
-              <h5>Previous Transactions</h5>
+              <h5 id="eth">0 ETH</h5>
               <p></p>
               <p></p>            
-              <h6 id="prevt">No previous transactions</h6>
+              <h6>Outstanding predictions</h6>
             </div>
           <div class="col-lg-8 mx-auto text-center">
             <!--<a href="#" class="btn btn-lg btn-outline">
@@ -85,7 +89,7 @@
       </div>
     </section>
 
-   
+  
     <!-- Footer -->
     <footer class="text-center">
       <div class="footer-above">
